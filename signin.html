@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="" href="./assets/img/favicon.png" />
+    <!--========== TAILWIND CONNECTION ==========-->
+
+    <script src="./assets/js/tailwind.js"></script>
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="./assets/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Health Bank | Sign Up</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link ">صفحه اصلی</a>
+            </li>
+            
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="flex items-center">
+        <a href="#" class="nav__logo  lg:mr-5">سبزینو</a>
+
+        </div>
+      </nav>
+    </header>
+    <div  class="flex items-center justify-center h-screen">
+      <!--========== Sign Up ==========-->
+    <div>
+      <h2 class="section-title mt-7 text-green-600">ورود</h2>
+
+      <div>
+        <form action="signinn.php" method="post" class="border border-green-600 p-7 rounded-lg">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            
+            <div>
+                <input
+                  name="user_phone"
+                  class="border border-green-600 w-full rounded-lg p-3"
+                  type="text"
+                  placeholder="شماره تلفن : "
+                />
+              </div>
+              <div>
+                <input
+                  name="user_password"
+                  class="border border-green-600 w-full rounded-lg p-3"
+                  type="password"
+                  placeholder="رمز عبور : "
+                />
+              </div>
+              <button type="submit" class="button flex justify-center !items-center">ورود</button>
+
+          </div>
+        </form>
+        </div>
+        <div class="flex justify-center">
+          <a href="./signup.html" class="section-title mt-7  text-green-600">قبلا ثبت نام نکرده اید؟ / ثبت نام</a>
+        </div>
+    </div>
+    </div>
+     <!--========== SCROLL REVEAL ==========-->
+     <script src="./assets/js/scrollreveal.js"></script>
+
+     <!--========== MAIN JS ==========-->
+     <script src="assets/js/main.js"></script>
+  </body>
+</html>
